@@ -44,13 +44,10 @@ export default {
     sdkVersion: "53.0.0",
     extra: {
       eas: {
-        projectId: "bfa821d0-ba49-4ea6-909e-a0417e05d2f8"
+        projectId: "da30f2c7-1f70-40c6-9c35-4b2651ebdaff"
       }
     },
     owner: "dadina",
-    updates: {
-      url: "https://u.expo.dev/bfa821d0-ba49-4ea6-909e-a0417e05d2f8"
-    },
     plugins: [
       "expo-web-browser",
       "expo-apple-authentication",

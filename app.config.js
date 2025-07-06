@@ -1,7 +1,7 @@
 export default {
   expo: {
-    name: "Fresh Expo",
-    slug: "fresh-expo",
+    name: "MPU-Check",
+    slug: "mpu-check",
     version: "1.0.0",
     orientation: "portrait",
     icon: "./assets/icon.png",
@@ -16,7 +16,7 @@ export default {
     ],
     ios: {
       supportsTablet: true,
-      bundleIdentifier: "com.freshexpo.app",
+      bundleIdentifier: "com.freshexpo.mpu-check",
       usesAppleSignIn: true,
       googleServicesFile: "./GoogleService-Info.plist",
       infoPlist: {
@@ -35,7 +35,7 @@ export default {
         foregroundImage: "./assets/adaptive-icon.png",
         backgroundColor: "#ffffff"
       },
-      package: "com.freshexpo.app"
+      package: "com.freshexpo.mpu-check"
     },
     web: {
       favicon: "./assets/favicon.png"
@@ -56,6 +56,6 @@ export default {
       "expo-apple-authentication",
       "@react-native-google-signin/google-signin"
     ],
-    scheme: "fresh-expo"
+    scheme: "mpu-check"
   }
 };
